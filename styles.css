@@ -28,6 +28,7 @@ header
     width: 100%;
     border-bottom: 4px solid black;
     text-align: left;
+    flex: 1;
 }
 
 nav

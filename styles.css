@@ -1,0 +1,131 @@
+html
+{
+    min-height: 100%;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://www.wowpatterns.com/assets/files/resource_images/cross_lines_pattern.png);
+    min-height: 100%;
+    margin: 0;
+    gap: 5px;
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: pink;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 22px;
+    width: 100%;
+    border-bottom: 3px solid black;
+    text-align: left;
+}
+
+nav
+{
+    width: 500px;
+}
+
+a
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    line-height: 35px;
+}
+
+h1
+{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
+    font-size: 22px;
+}
+
+hr
+{
+    border-color: black;
+    border-radius: 2px;
+    border-style: solid;
+}
+
+main
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+img
+{
+    float: left;
+    padding: 0px 6px 0.1px 0px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p
+{
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+    font-size: 20px;
+    text-indent: 40px
+}
+
+footer
+{
+    text-align: center;
+    background-color: pink;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+section
+{
+    background-image: url(https://www.ict-solutions-events.com/wp-content/uploads/2020/03/plain-white-background.jpg);
+    flex-basis: 50%;
+    border: 1px solid black;
+}
+
+section2
+{
+    background-image: url(https://www.ict-solutions-events.com/wp-content/uploads/2020/03/plain-white-background.jpg);
+    flex-basis: auto;
+    border: 1px solid black;
+}
+
+section3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+    width: 220px;
+}
+
+h3
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
+    font-size: 22px;
+}

@@ -1,6 +1,8 @@
 html
 {
     height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 body
@@ -11,6 +13,8 @@ body
     align-items: center;
     background-image: url(https://www.wowpatterns.com/assets/files/resource_images/cross_lines_pattern.png);
     height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 header
@@ -27,11 +31,6 @@ header
     width: 100%;
     border-bottom: 4px solid black;
     text-align: left;
-}
-
-nav
-{
-    width: 500px;
 }
 
 a
@@ -94,7 +93,6 @@ footer
     font-size: 20px;
     border-top: 4px solid black;
     width: 100%;
-    flex: 0;
 }
 
 section
